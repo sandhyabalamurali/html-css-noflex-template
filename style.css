@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1fe;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} 
+header {
+    padding: 15px;
+    background-color:#B1B1F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav {
+    display: inline-block;
+}
+header nav a {
+    color: #2a2a2b; 
+    padding: 10px; 
+    text-decoration: none;
+    font-size: 20px;
+}
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2a2a2b;
+    margin: 0;
+}
+.content-image-container {
+    display: flex;
+    align-items: center;
+    padding:35px;
+    background-color: #e0e0fc
+}
+.text-content {
+    max-width: 50%;
+}
+.description, .description1 {
+    margin-bottom: 20px;
+    padding:15px;
+}
+.description {
+    font-size: 20px;
+    
+}
+.description1 {
+    font-size: 50px;
+    margin: 0;
+}
+.bold-text {
+    font-weight: bold;
+}
+.image img {
+    max-width: 100%; 
+    display: block;
+    margin-left: auto; 
+}
+.choose-container {
+    margin-top: 20px; /* Space between the text and dropdown */
+    padding: 25px;
+    font-size: 20px;
+}
+.choose-explore-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    margin-top: 20px; /* Space between the text and the dropdown/button */
+    
+}
+
+#options {
+    width: 400px; /* Adjust width as needed */
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #f1f1fe;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 10px; /* Space between the dropdown and button */
+    cursor: pointer;
+}
+
+.explore-button,.readmore-button {
+    background-color: #9595f9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.explore-button:hover {
+    background-color: #6969f3;
+}
+.Aboutus{
+    font-size: 30px;
+    padding:10px 40px;
+}
+.codeeasy{
+    font-size: 15px;
+    padding:0 40px;
+    margin:0;
+}
+.images-row {
+    display: flex;
+    justify-content: space-around; /* Space between items */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+    background-color: #f1f1fe; /* Match the background color to your design */
+}
+
+.image-item {
+    text-align: center; /* Center the content under each image */
+    flex: 1; /* Allow items to grow equally */
+    margin: 0 10px; /* Space between items */
+}
+
+.image-item img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: 200px; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: add rounded corners */
+}
+
+.image-content {
+    font-size: 18px;
+    margin-top: 10px; /* Space between image and text */
+    color: #2a2a2b; /* Match the text color */
+}
+.Read-more{
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+/* Center the form fields */
+.footer {
+    background-color: #e0e0fc;
+    padding: 20px;
+    text-align: center;
+}
+
+.name {
+    margin: 20px auto; /* Center the input field horizontally and add margin for spacing */
+    max-width: 500px; /* Set a max width for the input field container */
+    text-align: left; /* Align the label text to the left */
+}
+
+.name label {
+    display: block; /* Ensure the label is on a new line above the input */
+    margin-bottom: 8px; /* Space between label and input */
+    font-size: 18px; /* Increase label font size */
+}
+.name input {
+    width: 100%; /* Make the input box fill the container's width */
+    padding: 15px; /* Increase padding for a larger input box */
+    border: 2px solid #ddd; /* Make the border more prominent */
+    border-radius: 8px; /* Round the corners of the input box */
+    font-size: 18px; /* Increase font size for better readability */
+    
+}
+.mail{
+    padding:20px;
+    
+}
+
