@@ -7,24 +7,28 @@ body {
 } 
 header {
     padding: 15px;
-    background-color:#B1B1F8;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: #B1B1F8;
+    display: inline-block; 
+    width: 100%; 
+    box-sizing: border-box; 
+    
 }
 header nav {
-    display: inline-block;
+    display: inline-block; 
+    float: right;
+}
+header h1 {
+    color: #2a2a2b;
+    margin: 0;
+    display: inline-block; /* Keep h1 inline with other elements */
+    text-align: right;
 }
 header nav a {
     color: #2a2a2b; 
     padding: 10px; 
     text-decoration: none;
     font-size: 20px;
-}
-header h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #2a2a2b;
-    margin: 0;
+    display: inline-block; /* Keep links inline */
 }
 .content-image-container {
     display: inline-block;
