@@ -27,15 +27,20 @@ header h1 {
     margin: 0;
 }
 .content-image-container {
-    display: flex;
-    align-items: center;
-    padding:35px;
-    background-color: #e0e0fc
+    display: inline-block;
+    background-color:#e0e0fc;
+    padding:30px;
+    background-image: url(image/image-1.png);
+    background-size: 650px;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 350px;
 }
 .text-content {
     max-width: 50%;
 }
 .description, .description1 {
+    display: inline-block;
     margin-bottom: 20px;
     padding:15px;
 }
@@ -50,9 +55,9 @@ header h1 {
 .bold-text {
     font-weight: bold;
 }
-.image img {
+.image {
     max-width: 100%; 
-    display: block;
+    display: inline-block;
     margin-left: auto; 
 }
 .choose-container {
@@ -61,10 +66,8 @@ header h1 {
     font-size: 20px;
 }
 .choose-explore-container {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align items to the start (left) */
-    margin-top: 20px; /* Space between the text and the dropdown/button */
+    display: block;
+    margin-top: 20px;
     
 }
 
@@ -102,27 +105,30 @@ header h1 {
     margin:0;
 }
 .images-row {
-    display: flex;
-    justify-content: space-around; /* Space between items */
-    align-items: center; /* Center items vertically */
-    padding: 20px;
-    background-color: #f1f1fe; /* Match the background color to your design */
+    text-align: center;
+    background-color: #f1f1fe; 
+    padding: 10px;
+    
+    
 }
 
 .image-item {
     text-align: center; /* Center the content under each image */
-    flex: 1; /* Allow items to grow equally */
-    margin: 0 10px; /* Space between items */
+    display:inline-block;
+    width:30%;
+    margin-bottom: 20px;
 }
 
 .image-item img {
-    max-width: 100%; /* Ensure images are responsive */
-    height: 200px; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: add rounded corners */
+    width:60%;
+    max-height:160px;
+    border-radius: 10px; /*add rounded corners */ 
+    margin-bottom: 10px;
 }
-
 .image-content {
-    font-size: 18px;
+    font-size: 13px;
+    padding: 10px;
+    text-align: left;
     margin-top: 10px; /* Space between image and text */
     color: #2a2a2b; /* Match the text color */
 }
@@ -137,13 +143,11 @@ header h1 {
     padding: 20px;
     text-align: center;
 }
-
 .name {
     margin: 20px auto; /* Center the input field horizontally and add margin for spacing */
     max-width: 500px; /* Set a max width for the input field container */
     text-align: left; /* Align the label text to the left */
 }
-
 .name label {
     display: block; /* Ensure the label is on a new line above the input */
     margin-bottom: 8px; /* Space between label and input */
